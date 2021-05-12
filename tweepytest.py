@@ -15,10 +15,10 @@ class StreamObject(tweepy.StreamListener):
         print("Error detected")
 
 # Authenticate to Twitter
-auth = tweepy.OAuthHandler("GuYZVy8pBW5mEqGgdTTAwxwYZ", 
-    "PFXbddDdZ1ZSnrybVRIYiP4eZJfB92DO8F4NcK964Up9oKzoGb")
-auth.set_access_token("1264288620807991296-8PD5SWe0iWeNoGXQkJNjhVmCfxpFQK", 
-    "PXk7oDkuBbNMzwRMwo3Ujpm8hkwOAH2M0Pd9avoE7qQ2Q")
+auth = tweepy.OAuthHandler("xxx", 
+    "xxx")
+auth.set_access_token("xxx", 
+    "xxx")
 
 # Create API object
 api = tweepy.API(auth, wait_on_rate_limit=True,
